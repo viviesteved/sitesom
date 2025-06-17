@@ -1,0 +1,110 @@
+@font-face {
+    font-family: 'HoneyMonly';
+    src: url(./fontes/HoneyMonly.otf) format('opentype');
+  }
+  
+  body {
+    margin: 0;
+    background-image: linear-gradient(50deg, #dfa7c6 0%, #af117a 100%);
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .titulo-cidade {
+    width: 100%;
+    background-color: #f7c3e0;
+    color: #722644;
+    font-family: 'HoneyMonly', sans-serif;
+    font-size: 4em;
+    padding: 30px 0;
+    margin: 0;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(107, 26, 57, 0.6);
+  }
+  
+  .titulo-cidade::before {
+    content: '< ';
+  }
+  
+  .titulo-cidade::after {
+    content: ' >';
+  }
+  
+  .fundo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    gap: 60px;
+    flex-wrap: wrap;
+  }
+  
+  .botoes {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  button {
+    padding: 15px 30px;
+    font-size: 1.2em;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    background-color: #f7c3e0;
+    color: #722644;
+    box-shadow: 0 4px 10px rgba(107, 26, 57, 0.4);
+    transition: all 0.3s;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  button:hover {
+    background-color: #e59ac7;
+    transform: scale(1.05);
+  }
+  
+.imagem-cidade {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff0f7;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+  }
+  
+.img-som {
+    width: 300px;
+    height: 300px;
+    object-fit: contain;
+    border-radius: 10px;
+    border: 3px solid #af117a;
+    background-color: white;
+  }
+   .texto-som {
+    margin-top: 15px;
+    font-size: 1.5em;
+    color: #722644;
+    font-family: 'HoneyMonly', sans-serif;
+  }
+  .botoes-a{
+    padding: 15px 30px;
+    font-size: 1.2em;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    background-color: #693a4d;
+    color: #f0aec8;
+    box-shadow: 0 4px 10px rgba(107, 26, 57, 0.4);
+    transition: all 0.3s;
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-decoration: none;
+    justify-content: center;
+    text-align: center;
+  }

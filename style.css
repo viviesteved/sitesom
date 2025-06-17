@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Hand+Pre:wght@400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@font-face {
+    font-family: 'HoneyMonly';
+    src: url(./fontes/HoneyMonly.otf) format('opentype');
+}
+
+body {
+    margin: 0;
+    background-image: linear-gradient(50deg, #dfa7c6 0%, #af117a  100%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Montserrat", sans-serif;
+    height: 100vh;
+}
+
+h1 {
+    width: 100%; 
+    background-color: #f7c3e0;
+    color: #722644;
+    font-family: 'HoneyMonly', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 5.0em;
+    padding: 40px 0; 
+    margin: 0; 
+    box-shadow: 0 4px 10px rgba(107, 26, 57, 0.616);
+    text-align: center;
+}
+
+  .Botao-escolha {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+  }
+  
+  .Botao-escolha a {
+    padding: 18px 35px;
+    font-size: 1.2em;
+    border-radius: 10px;
+    font-weight: bold;
+    color: #722644;
+    background-color: #f7c3e0;
+    text-decoration: none;
+    transition: 0.3s;
+    box-shadow: 0 4px 10px rgba(107, 26, 57, 0.616);
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .Botao-escolha a:hover {
+    background-color: #e59ac7;
+    transform: scale(1.05);
+  }
+  .titulo::after {
+    content: ' >';
+}
+
+.titulo::before {
+    content: '< ';
+}
+h2 {
+    font-size: 2em;
+    margin: 10px auto 70px auto; 
+    color: #5a1c35;
+    font-family: 'MontSerrat', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 10px 25px;
+    border-radius: 10px;
+    text-align: center;
+   width: 300px;
+   text-decoration: underline #e59ac7
+;
+
+}
+  .Centro{
+    justify-content: center;
+    align-items: center;
+    margin:auto;
+  }
+  
+  
+  

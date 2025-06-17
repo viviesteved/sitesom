@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <title>Jogo dos Sons - Animais</title>
+  <link rel="stylesheet" href="instrumento.css" />
+</head>
+<body>
+  <h1 class="titulo-instrumento">Sons de instrumentos</h1>
+
+  <div class="fundo">
+    <div class="botoes">
+      <button>conga</button>
+      <button>trompete</button>
+      <button>flauta</button>
+      <button>bateria</button>
+      <a class="botoes-a" href="index.html">Voltar</a>
+    </div>
+
+    <div class="imagem-instrumento">
+      <img src="imagem/fanfarra.jpg" alt="Som escolhido" id="imgSom" class="img-som" />
+      <p class="texto-som" id="nomeSom">Som escolhido</p>
+    </div>
+  </div>
+  <audio id="som_flauta" src="som/flute-rain-flute-loop-ambient-short-loop-340800.mp3"></audio>
+  <audio id="som_conga" src="som/conga-drums-100-bpm-99620.mp3"></audio>
+  <audio id="som_trompete" src="som/trumpet-piano-viola-352621.mp3"></audio>
+  <audio id="som_bateria" src="som/base-simple-bateria-340374.mp3"></audio>
+
+
+  <script src="instrumento.js"></script>
+</body>
+</html>
